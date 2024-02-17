@@ -41,7 +41,7 @@ div table td{
 }
 .btns{
   margin: auto;
-  width: 700px;
+  width: 500px;
   display: flex;
   justify-content: space-around;;
 }
