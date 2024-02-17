@@ -1,0 +1,66 @@
+
+*{
+  margin: 0;
+}
+body{
+  height: 800px;
+}
+h1{
+  text-align: center;
+  color: red;
+  text-shadow: 0px 0px 2px green;
+  scale: 1.2;
+}
+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div table td{
+  height: 42px;
+  width: 50px;
+  border: 0.5px solid black;
+  text-align: center;
+  font-size: 25px;
+}
+.bor-right{
+  border-right: 1.2px solid black;
+}
+.bor-left{
+  border-left: 1.2px solid black;
+}
+.bor-top{
+  border-top: 1.2px solid black;
+}
+.bor-bottom{
+  border-bottom: 1.2px solid black;
+}
+.td:active{
+  box-sizing: border-box;
+  border: 5px solid black; 
+}
+.btns{
+  margin: auto;
+  width: 800px;
+  display: flex;
+  justify-content: space-around;;
+}
+.btn{
+  font-size: 20px;
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+}
+.check{
+  font-size: 18px;
+  padding: 4px 8px;
+  border: none;
+  border-radius: 5px;
+  color: blue;
+  /*background-color: rgb(0, 40, 255, .3);*/
+  background-image: linear-gradient(to right, yellow, gold, gold, gold , yellow) 
+}
+.check:active{
+  box-sizing: border-box;
+  scale: 1.1;
+}
